@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- nav-start -->
+    <header>
+
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>LOGO</a>
+            <form action="" class="search-box-container">
+                <input type="search" id="search-box" placeholder="Search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </div>
+
+        <div class="header-2">
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#category">Category</a>
+                <a href="#product">Product</a>
+                <a href="#deal">Deal</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user-circle"></a>
+            </div>
+        </div>
+
+    </header>
+
+     <!-- nav-end -->
+
+    <section class="home" id="home">
+       <div class="image">
+        <img src="./home.png" alt="">
+       </div>
+       <div class="content">
+        <p>fresh and organic</span>
+        <h3>your daily need product</h3>
+        <a href="#" class="btn">get started</a>
+       </div>
+    </section>
+
+    <section class="banner-container">
+        <div class="banner">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyNbqcvZn6RE395i8HaG3h_1qqsDUsYy1K-g&usqp=CAU" alt="">
+            <div class="content">
+                <h3>special offer</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTWjQODyx23h_MZ0ICGvd0sZAWIHyRbt9IUzykQcGEThl6jZ7rO" alt="">
+            <div class="content">
+                <h3>limited offer</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+        
+    </section>
+     
+    <section class="category" id="category">
+        <h1 class="heading">shop by <span>category</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <h3>vegetables</h3>
+                <p>upto 50% off</p>
+                <img src="./veg.png" alt="">
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <h3>juice</h3>
+                <p>upto 44% off</p>
+                <img src="https://png.pngtree.com/png-vector/20231018/ourmid/pngtree-fruit-juice-transpreant-background-png-image_10302863.png" alt="">
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <h3>fruite</h3>
+                <p>upto 34% off</p>
+                <img src="https://freepngimg.com/thumb/fruit/175401-basket-mix-fruits-png-free-photo-thumb.png" alt="">
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <h3>butter</h3>
+                <p>upto 30% off</p>
+                <img src="data:image/jpeg;base64,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" alt="">
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="product" id="product">
+        <h1 class="heading">latest <span>products</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./banana.png" alt="">
+                <h3>organic banana</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span>$13.20</span></div>
+                <div class="quantity">
+                    <span>quantity: </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> / kg </span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-45%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./tomato.png" alt="">
+                <h3>organic tomato</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span>$13.20</span></div>
+                <div class="quantity">
+                    <span>quantity: </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> / kg </span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-52%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./orange.png" alt="">
+                <h3>organic orange</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span>$13.20</span></div>
+                <div class="quantity">
+                    <span>quantity: </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> / kg </span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./milk.png" alt="">
+                <h3>natural milk</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span>$13.20</span></div>
+                <div class="quantity">
+                    <span>quantity: </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> / kg </span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./grapes.png" alt="">
+                <h3>organic grapes</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span>$13.20</span></div>
+                <div class="quantity">
+                    <span>quantity: </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> / kg </span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-19%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./almonts.png" alt="">
+                <h3>natural almonts</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span>$13.20</span></div>
+                <div class="quantity">
+                    <span>quantity: </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> / kg </span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-55%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjGYF2ghRtwTEOLjIxdTNuWZuTRrjzYduPEOnxcbItY3uoPxWNLG19ajLuPECY4F2gsps&usqp=CAU" alt="">
+                <h3>organic apple</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span>$13.20</span></div>
+                <div class="quantity">
+                    <span>quantity: </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> / kg </span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-32%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./butter.png" alt="">
+                <h3>natural butter</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span>$13.20</span></div>
+                <div class="quantity">
+                    <span>quantity: </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> / kg </span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-40%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./carrot.png" alt="">
+                <h3>natural carrot</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $10.50 <span>$13.20</span></div>
+                <div class="quantity">
+                    <span>quantity: </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> / kg </span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="deal" id="deal">
+        <div class="content">
+            <h3 class="title">deal of the day</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla modi quasi dolor ea et, veritatis quod odio recusandae! Dolore, ratione.</p>
+             
+            <div class="count-down">
+                <div class="box">
+                    <h3 id="day">00</h3>
+                    <span>day</span>
+                </div>
+                <div class="box">
+                    <h3 id="hour">00</h3>
+                    <span>hour</span>
+                </div>
+                <div class="box">
+                    <h3 id="minute">00</h3>
+                    <span>minute</span>
+                </div>
+                <div class="box">
+                    <h3 id="second">00</h3>
+                    <span>second</span>
+                </div>
+            </div>
+            <a href="#" class="btn">check the deal</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> us</h1>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
