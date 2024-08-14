@@ -19,7 +19,7 @@ window.onscroll = ()=>{
     }
 }
 
-let countDate = new Date('march 1, 2024 00:00:00').getTime();
+let countDate = new Date('march 1, 2025 00:00:00').getTime();
 function countDown(){
     let now = new Date().getTime();
     gap = countDate - now;
